@@ -11,7 +11,7 @@ namespace Videoteka
     {
         private string GetConnectionString()
         {
-            string connString = "Server = localhost; Database = videoteka; Uid = igor2; Pwd = igor";
+            string connString = "Server=localhost;Database=videoteka;Uid=igor;Pwd=1234;";
 
 
             return connString;
