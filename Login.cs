@@ -44,10 +44,13 @@ namespace Videoteka
             }
             
         }
+<<<<<<< HEAD
 
         private void Login_Load(object sender, EventArgs e)
         {
 
         }
+=======
+>>>>>>> 60f4f2cf0d628d981e60ce3494edc31675cddb44
     }
 }

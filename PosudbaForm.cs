@@ -25,6 +25,14 @@ namespace Videoteka
 
         }
 
+<<<<<<< HEAD
+=======
+        private void btnNazad_Click(object sender, EventArgs e)
+        {
+            this.SendToBack();
+            this.Close();
+        }
+>>>>>>> 60f4f2cf0d628d981e60ce3494edc31675cddb44
 
         private void chBoxListaFilmova_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -35,10 +43,13 @@ namespace Videoteka
         {
 
         }
+<<<<<<< HEAD
 
         private void btnPosudi_Click(object sender, EventArgs e)
         {
 
         }
+=======
+>>>>>>> 60f4f2cf0d628d981e60ce3494edc31675cddb44
     }
 }
