@@ -30,16 +30,14 @@
         {
             this.lblPosudba = new System.Windows.Forms.Label();
             this.btnExitPosudba = new System.Windows.Forms.Button();
-<<<<<<< HEAD
             this.btnPosudi = new System.Windows.Forms.Button();
             this.dgPosudiFilm = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dgPosudiFilm)).BeginInit();
-=======
+
             this.btnNazad = new System.Windows.Forms.Button();
             this.CheckedListBox = new System.Windows.Forms.CheckedListBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
->>>>>>> 60f4f2cf0d628d981e60ce3494edc31675cddb44
             this.SuspendLayout();
             // 
             // lblPosudba
@@ -66,7 +64,6 @@
             this.btnExitPosudba.UseVisualStyleBackColor = false;
             this.btnExitPosudba.Click += new System.EventHandler(this.btnExitPosudba_Click);
             // 
-<<<<<<< HEAD
             // btnPosudi
             // 
             this.btnPosudi.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -87,7 +84,6 @@
             this.dgPosudiFilm.RowTemplate.Height = 24;
             this.dgPosudiFilm.Size = new System.Drawing.Size(517, 327);
             this.dgPosudiFilm.TabIndex = 6;
-=======
             // btnNazad
             // 
             this.btnNazad.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -117,31 +113,25 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(406, 266);
             this.dataGridView1.TabIndex = 6;
->>>>>>> 60f4f2cf0d628d981e60ce3494edc31675cddb44
             // 
             // PosudbaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-<<<<<<< HEAD
             this.Controls.Add(this.dgPosudiFilm);
             this.Controls.Add(this.btnPosudi);
-=======
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.CheckedListBox);
             this.Controls.Add(this.btnNazad);
->>>>>>> 60f4f2cf0d628d981e60ce3494edc31675cddb44
             this.Controls.Add(this.btnExitPosudba);
             this.Controls.Add(this.lblPosudba);
             this.Name = "PosudbaForm";
             this.Text = "PosudbaForm";
             this.Load += new System.EventHandler(this.PosudbaForm_Load);
-<<<<<<< HEAD
             ((System.ComponentModel.ISupportInitialize)(this.dgPosudiFilm)).EndInit();
-=======
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
->>>>>>> 60f4f2cf0d628d981e60ce3494edc31675cddb44
+
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -151,13 +141,10 @@
 
         private System.Windows.Forms.Label lblPosudba;
         private System.Windows.Forms.Button btnExitPosudba;
-<<<<<<< HEAD
         private System.Windows.Forms.Button btnPosudi;
         private System.Windows.Forms.DataGridView dgPosudiFilm;
-=======
         private System.Windows.Forms.Button btnNazad;
         private System.Windows.Forms.CheckedListBox CheckedListBox;
         private System.Windows.Forms.DataGridView dataGridView1;
->>>>>>> 60f4f2cf0d628d981e60ce3494edc31675cddb44
     }
 }

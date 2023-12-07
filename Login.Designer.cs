@@ -22,10 +22,7 @@
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
+
         private void InitializeComponent()
         {
             this.lblMain = new System.Windows.Forms.Label();
@@ -116,11 +113,9 @@
             this.lblPočetna.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPočetna.Location = new System.Drawing.Point(12, 9);
             this.lblPočetna.Name = "lblPočetna";
-<<<<<<< HEAD
+
             this.lblPočetna.Size = new System.Drawing.Size(270, 38);
-=======
             this.lblPočetna.Size = new System.Drawing.Size(279, 39);
->>>>>>> 60f4f2cf0d628d981e60ce3494edc31675cddb44
             this.lblPočetna.TabIndex = 8;
             this.lblPočetna.Text = "Početna stranica ";
             // 
@@ -140,10 +135,7 @@
             this.Controls.Add(this.lblMain);
             this.Name = "Login";
             this.Text = "Login";
-<<<<<<< HEAD
             this.Load += new System.EventHandler(this.Login_Load);
-=======
->>>>>>> 60f4f2cf0d628d981e60ce3494edc31675cddb44
             this.ResumeLayout(false);
             this.PerformLayout();
 
