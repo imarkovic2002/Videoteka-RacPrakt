@@ -21,7 +21,10 @@ namespace Videoteka
         public bool AutorizirajKorisnika(string username, string pwd)
         {
             bool postoji = false;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 60f4f2cf0d628d981e60ce3494edc31675cddb44
             var connection = new MySqlConnection(GetConnectionString());
             connection.Open();
 
@@ -36,6 +39,10 @@ namespace Videoteka
             {
                 postoji = reader.HasRows;
             }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 60f4f2cf0d628d981e60ce3494edc31675cddb44
             return postoji;
 
         }
